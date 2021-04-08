@@ -4,7 +4,7 @@ email:       haider.lee23@gmail.com
 author:      Haider Ali
 description: "Personal blogging website for Haider Ali (Haider8) built using a simple, beautiful theme for Jekyll."
 baseurl:     ""
-url:         "https://Haider8.github.io"
+url:         "https://haider8.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
