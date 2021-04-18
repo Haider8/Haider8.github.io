@@ -65,7 +65,7 @@ heroku buildpacks:add https://github.com/moneymeets/python-poetry-buildpack.git
 heroku buildpacks:add heroku/python
 ```
 
-As you can see above, we have first cleared all the buildpacks because we want `python-poetry-buildpack` to come before `heroku/python` buildpack. Otherwise, we will not be able to deploy or app. You should now be able to deploy your app! If you still face any errors, make sure you have deleted your `requirements.txt` file also.
+As you can see above, we have first cleared all the buildpacks because we want `python-poetry-buildpack` to come before `heroku/python` buildpack. Otherwise, we will not be able to deploy our app. You should now be able to deploy your app! If you still face any errors, make sure you have deleted your `requirements.txt` file also.
 
 ## CircleCI Changes
 
